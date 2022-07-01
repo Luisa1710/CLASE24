@@ -1,3 +1,12 @@
 .fondo {background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(169,121,193,0.5494572829131652) 0%, rgba(34,19,61,1) 100%);}
-.fuente {font-family: 'Shadows Into Light', cursive;}                                                                                                                                              
+.fuente {
+    font-family: 'Shadows Into Light', cursive;
+    
+
+}                                                                                                                                              
+
+.fuente2 {
+
+    font-size: 100px;
+}
