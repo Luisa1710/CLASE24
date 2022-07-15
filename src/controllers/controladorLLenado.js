@@ -9,7 +9,7 @@ export function pintarProductos(productos) {
 // Es decir la etiqueta padre o etiqueta raiz
 
 let fila = document.getElementById ("fila")
-
+fila.innerHTML=""
 // 2.Recorro el arreglo de datos y le aplico traversing
 // El nombre del parametro de la funcion anonima debe llamarse como el arreglo en singular
 productos.forEach(function(producto){

@@ -2,7 +2,8 @@
 
 import { productosRostro } from "../helpers/database.js";
 
-
-console.log(productosRostro)
-import {pintarProductos} from "../controllers/controladorLLenado.js"
+import {pintarProductos} from "./controladorLLenado.js"
 pintarProductos(productosRostro)
+
+import{buscarProductos} from "./controladorbuscar.js"
+buscarProductos()
