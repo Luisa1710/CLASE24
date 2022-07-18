@@ -35,6 +35,11 @@ productos.forEach(function(producto){
   nombreProducto.textContent = producto.nombre
 
   let precioProducto =document.createElement("h2")
+  precioProducto.textContent = producto.descripcion
+
+  let productoDescripcion = document.createElement('p')
+  productoDescripcion.textContent = producto.descripcion
+  productoDescripcion.classList.add("d-none")
 
   precioProducto.classList.add("fw-bold")
   precioProducto.textContent ='$' +  producto.precio + 'COP'
@@ -53,6 +58,8 @@ productos.forEach(function(producto){
   tarjeta.appendChild(fotoProducto)
   tarjeta.appendChild(nombreProducto)
   tarjeta.appendChild(precioProducto)
+  tarjeta.appendChild(productoDescripcion)
+
   columna.appendChild(tarjeta)
   fila.appendChild(columna)
 
